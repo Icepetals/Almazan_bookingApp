@@ -11,11 +11,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+        <div class="navbar">
+            <a href="#"><img src="img/backbutton.png" id="backBtn"></a>
+            <img src="img/signup.png" alt="" srcset="" id="signupLogo">
+        </div> 
         <div class="background flex">
+            <img src="img/sky.jpg" id="background">
             <div id="signupBox">
-                <form action="" method="POST">
-                    <fieldset>
-                        First Name:<input type="text">
+                <div class="form">
+                        First Name:<input type="text"><br><br>
                         Last Name:<input type="text">
                         Gender: <input type="radio" name="gender" value="male">Male
                                 <input type="radio" name="gender" value="female">Female<br>
@@ -26,9 +30,8 @@
                         Email:<input type="email">
                         Mobile:<input type="text">
                         Card:<input type="text"><br><br>
-                    </fieldset>
+                </div>
                     <button type="submit" id="submit">Submit</button>
-                </form>
             </div>
         </div>
 </body>
