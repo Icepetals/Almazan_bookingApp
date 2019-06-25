@@ -84,3 +84,11 @@ fieldset{
     float: left;
    
 }
+
+.form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black; 
+    outline: none;
+    line-height: 20px;
+}
