@@ -1,0 +1,49 @@
+#logo{
+    margin-top: 10px;
+    height: 30px;
+    width: 200px;
+}
+.background{
+    background-image: url(img/sky.jpg);
+    height: calc(100vh - 53px);
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbar{
+    margin-bottom: 0 !important;
+    background-color: lightblue;
+}
+
+.profileBox{
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    height:420px;
+    background: rgba(255, 255, 255, 0.5);
+    color:#000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-45%, -50%);
+    box-sizing: border-box;
+    padding:20px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+.profile{
+   top:  100px;
+}
+h1{
+        
+}
+
+.pic {
+    display: flex;
+}
