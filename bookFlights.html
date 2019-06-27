@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Flights</title>
+    <link rel="stylesheet" href="bookFlights.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+       
+    
+    <div class="background">
+            <nav class="navbar navbar-default" id="navbar">
+            <img src="img/backbtn.png" id="backbtn">
+            <center><img src="img/philippineairlines_logo.png" id="logo" alt=""></center>
+            </nav>
+        <img src="img/beach.jpg" id="wallpaper" alt="">
+        <div class="menuBox">
+            <div class="menu">
+                    <input type="radio" value="oneway" name="way">OneWay
+                    <input type="radio" value="roundtrip" name="way">RoundTrip <br><br> 
+                    Origin: <Select>
+                        <option value="0">manila</option>
+                        <option value="1">bacolod</option>
+                        <option value="2">clark</option>
+                    </Select>
+                    &nbsp;                    
+                    Destination:<Select>
+                            <option value="0">manila</option>
+                            <option value="1">bacolod</option>
+                            <option value="2">clark</option>
+                        </Select><br><br>
+                    
+                    Departing On: <input type="date">
+                    Returning On: <input type="date">
+                    <br><br>
+                    Adults<input type="number" min="0"> &nbsp;
+                    Child<input type="number" min="0">
+                    Infant<input type="number" min="0">
+                    <br><br>
+
+                    <button class="btn btn-primary">Book Flight</button>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
