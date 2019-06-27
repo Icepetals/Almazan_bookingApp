@@ -20,8 +20,8 @@
 .menuBox{
     margin: 0;
     padding: 80px 40px;
-    width: 50%;
-    height: 50%;
+    width: 100vw;
+    height: 83vh;
     background: rgba(255, 255, 255,0.5);
     color:#000;
     top: 50%;
@@ -46,5 +46,9 @@
 }
 
 #menu{
+    text-align: center;
+}
+
+.navbar-header{
     text-align: center;
 }
