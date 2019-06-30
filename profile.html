@@ -9,25 +9,41 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    
+    <script src="profile.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-default col-12" id="navbar">
+        <div id="sideBar" onclick="togglemenu()">
+            <div class="toggle-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="bookFlights.html">Book Flight</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </div>
         <center><img src="img/philippineairlines_logo.png" id="logo" alt=""></center>
     </nav>
-    <div class="background col-12">
-        <div class="profileBox col-12">
+    <div class="background">
+        <img src="img/beach.jpg" id="background">
+        <div class="profileBox">
            <div class= "profile">
                 <h1>Profile<h1>
            </div>
            <div class="container">
                 <div class="row">
-                  <div class="col-sm pic">
+                  <div class="col-sm-12 pic">
                     <img src="img/cityLights.jpg"> &nbsp; &nbsp;
                         <div class="col-sm">
                             Fullname:<input type="text" value="John Carter"><br><br>
                             Gender:<input type="text" value="Male">
-                            Age:<input type="number" value="24" min="24" max="24">
+                            Age:<input type="number" value="24" min="24" max="24"><br><br>
+                            Address:<input type="text" value="malibu city"><br><br>
+                            Username:<input type="text" value="john13"><br><br>
+                            CardNo:<input type="text" value="123456543">
                         </div>
                   </div>
                 </div>

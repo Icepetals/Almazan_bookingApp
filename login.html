@@ -4,19 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src ="profile.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-default" id="navbar">
+       <center><img src="img/philippineairlines_logo.png" id="logo" alt=""></center>
     </nav>    
     <div class ="background flex"></div>
-    <div id="SigninBox">
+    <div id="loginBox">
         <div id="Signin">
-            
+            <form action="">
+            Username:<input type="text" id="username"><br><br>
+            Password:<input type="password" id="password">
+            <br><br>
+            </form>
+            <center><a href="#" id="forget">Forget Password</a><br><br></center>
+            <center><a href="home.html"><button class="submit btn btn-primary" onclick="return checkInput()">Submit</button></a></center><br>
+            <center><a href="signup.html"><button class="submit btn btn-primary">Sign up</button></a></center>
+
         </div>
     </div>
 </body>
