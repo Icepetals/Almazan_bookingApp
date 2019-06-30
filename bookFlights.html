@@ -9,15 +9,28 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="profile.js"></script>
 </head>
 <body>
        
     
     <div class="background col-12">
-            <nav class="navbar navbar-default" id="navbar">
-            <a href="home.html"><img src="img/backbtn.png" id="backbtn"></a>
+            <div class="navbar navbar-default" id="navbar">
+                    <div id="sideBar" onclick="togglemenu()">
+                            <div class="toggle-btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <ul>
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="bookFlights.html">Book Flight</a></li>
+                                <li><a href="login.html">Logout</a></li>
+                            </ul>
+                        </div>
+            <!-- <a href="home.html"><img src="img/backbtn.png" id="backbtn"></a> -->
             <center><img src="img/philippineairlines_logo.png" id="logo" alt=""></center>
-            </nav>
+            </div>
         <img src="img/beach.jpg" id="wallpaper" alt="">
         <div class="menuBox">
             <div class="menu">
@@ -39,12 +52,12 @@
                     Returning On: <input type="date">
                     <br><br>
                     Adults<input type="number" min="0"> &nbsp;
-                    Child<input type="number" min="0">
+                    Child<input type="number" min="0"><br><br>
                     Infant<input type="number" min="0">
                     <br><br>
 
-                    <button class="btn btn-primary">Book Flight</button>
-
+                    <a href="bookingDetails.html"><button class="btn btn-primary">Book Flight</button></a>
+                    
             </div>
         </div>
     </div>
