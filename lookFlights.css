@@ -1,28 +1,57 @@
-.menuBox{
-    margin: 0;
-    padding: 80px 40px;
-    width: 320px;
-    height:420px;
-    background: rgba(74, 160, 218, 0.8);
-    color:#000;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    box-sizing: border-box;
-    border-radius: 20px;
-    padding: 70px 30px;
-    border-color: white;
-    
+.navbar{
+    background-color: lightblue;
 }
 
-#background{
-    height: 100vh;
-    width: 100vw;
-}
-
-.menu{
+#logo{
+    width:200px;
+    height:30px;
     text-align: center;
-    padding: 0;
-    margin: 0;
+    position: relative;
+    top:10px;
+}
+
+#backbtn{
+    height:30px;
+    width: 30px;
+    float: left;
+    margin-top: -20px;
+
+}
+
+table{
+    width:70%;
+    border-spacing: 40px;
+}
+
+tbody th, tr{
+    text-align: center; 
+    margin: 5px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;    
+}
+
+th{
+    background-color: lightblue;
+    padding:10px;
+}
+h1, h3{
+    text-align: left;
+    padding-left: 30px;
+}
+td{
+    font-size:16px;
+    padding: 10px;
+}
+h3{
+    color: darkblue;
+}
+table{
+    margin: 10px;
+}
+#next{
+    float:right;
+    margin-right: 100px;
 }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LookFlights</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="lookFlights.css">
+</head>
+<body>
+    <nav class="navbar">
+        <center><img src="img/philippineairlines_logo.png" id="logo"></center>
+        <a href="bookFlights.html"><img src="img/backbtn.png" align="left" id="backbtn"></a>
+    </nav>
+
+    <div id="caption">
+        <h1>Date Selection</h1>
+        <h3>Manila (MNL) - Sapporo(Chitose) (CTS)</h3>
+    </div>
+    <br>
+    <center><div id="table1">
+        <table> 
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <td>
+                    July 1 <br>
+                    <input type="radio" value="0" name="table1">
+                </td>
+                <td>
+                    July 2 <br>
+                    <input type="radio" value="1" name="table1">
+                </td>
+                <td>
+                    July 3 <br>
+                    <input type="radio" value="2" name="table1">
+                </td>
+                <td>
+                    July 4 <br>
+                    <input type="radio" value="3" name="table1">
+                </td>
+                <td>
+                    Not Offered
+                </td>
+                <td>
+                    July 6 <br>
+                    <input type="radio" value="0" name="table1">
+                </td>
+                <td>
+                    Not Offered
+                </td>
+            </tr>
+        </table>
+    </div></center>
+
+    <br>
+    <div id="caption">
+            <h3>Sapporo(Chitose) (CTS) - Manila(MNL)</h3>
+    </div>
+    <br>
+    <center><div id="table2">
+            <table> 
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+                <tr>
+                    <td>July 8 <br>
+                    <input type="radio" value="0" name="table2"></td>
+                    <td>Not Offered</td>
+                    <td>Not Offered</td>
+                    <td>Not Offered</td>
+                    <td>July 12 <br>
+                    <input type="radio" value="1" name="table2"></td>
+                    <td>July 13 <br>
+                    <input type="radio" value="2" name="table2"></td>
+                    <td>July 14 <br>
+                    <input type="radio" value="3" name="table2"></td>
+                </tr>
+            </table>
+        </div></center>
+        <br>
+    <a href="bookingDetails.html"><button class="btn btn-primary" id="next">Next</button></a>
+</body>
+</html>

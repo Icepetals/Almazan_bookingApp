@@ -4,15 +4,16 @@
 }
 #sideBar{
     position: fixed;
-    width: 30%;
+    width: 20%;
     height: 100%;
-    left: -30%;
+    left: -20%;
+    transition: all 500ms linear;
     background-color: white;
 }
 #sideBar li{
     color: black;
     font-size: 30px; 
-    padding:30px;
+    padding:10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 1px solid gray;
     text-align: center;
