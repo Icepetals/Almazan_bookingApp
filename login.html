@@ -15,19 +15,42 @@
     <nav class="navbar navbar-default" id="navbar">
        <center><img src="img/philippineairlines_logo.png" id="logo" alt=""></center>
     </nav>    
-    <div class ="background flex"></div>
-    <div id="loginBox">
-        <div id="Signin">
-            <form action="">
-            Username:<input type="text" id="username"><br><br>
-            Password:<input type="password" id="password">
-            <br><br>
-            </form>
-            <center><a href="#" id="forget">Forget Password</a><br><br></center>
-            <center><a href="home.html"><button class="submit btn btn-primary" onclick="return checkInput()">Submit</button></a></center><br>
-            <center><a href="signup.html"><button class="submit btn btn-primary">Sign up</button></a></center>
-
+    <div class ="background flex">
+        <div id="loginBox">
+            <div id="Signin">
+                <form action="">
+                Username:<input type="text" id="username"><br><br>
+                Password:<input type="password" id="password">
+                <br><br>
+                </form>
+                <!-- <center><a href="forgetpassword.html" id="forget">Forgot Password</a><br><br></center> -->
+                <a data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;color: red;">Forgot Password</a>
+                <br><br>
+                <center><a href="home.html"><button class="submit btn btn-primary">Submit</button></a></center><br>
+                <center><a href="signup.html"><button class="submit btn btn-primary">Sign up</button></a></center>
+            </div>
         </div>
+      
     </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title" id="exampleModalLabel">Forgot Password</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>please enter your e-mail</p>
+                  <input type="text" value=".com">
+                </div>
+                <div class="modal-footer">
+                  <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
 </body>
 </html>

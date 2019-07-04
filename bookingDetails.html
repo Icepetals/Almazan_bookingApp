@@ -14,7 +14,7 @@
 <body>
         <div class="background col-12">
                 <div class="navbar navbar-default" id="navbar">
-                        <div id="sideBar" onclick="togglemenu()">
+                        <!-- <div id="sideBar" onclick="togglemenu()">
                                 <div class="toggle-btn">
                                     <span></span>
                                     <span></span>
@@ -25,8 +25,8 @@
                                     <li><a href="bookFlights.html">Book Flight</a></li>
                                     <li><a href="login.html">Logout</a></li>
                                 </ul>
-                            </div>
-                <!-- <a href="home.html"><img src="img/backbtn.png" id="backbtn"></a> -->
+                            </div> -->
+                <a href="bookFlights.html"><img src="img/backbtn.png" id="backbtn"></a>
                 <center><img src="img/philippineairlines_logo.png" id="logo" alt=""></center>
                 </div>
             <img src="img/beach.jpg" id="wallpaper" alt="">
@@ -49,16 +49,18 @@
                         Departing On: <input type="date">
                         Returning On: <input type="date">
                         <br><br>
-                        Adults<input type="number" value="1"> &nbsp;
-                        Child<input type="number" value="0"><br><br>
-                        Infant<input type="number" value="0">
+                        Adults<input type="number" value="1" style="width: 50px;"> &nbsp;
+                        Child<input type="number" value="0" style="width: 50px;">
+                        Infant<input type="number" value="0" style="width: 50px;">
                         <br><br>
                         Departure:<input type="time" value="1">
                         Arrive:<input type="time" value="1">
                         Duration:<input type="time" value="1">
                         <br><br>
+
+                        <h2>Price:<input type="text" value="P20,000" id="price"></h2>
     
-                        <a href="#"><button class="btn btn-primary">Pay Flight</button></a>
+                        <a href="payment.html"><button class="btn btn-primary">Pay Flight</button></a>
                         
                 </div>
             </div>

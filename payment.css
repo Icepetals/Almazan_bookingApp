@@ -1,0 +1,48 @@
+.navbar{
+    background-color: lightblue;
+    margin: 0 !important;
+}
+
+#logo{
+    width:200px;
+    height:30px;
+    margin-top: 10px;
+}
+
+#visa, #paypal, #mastercard, #paymaya{
+    width:50px;
+    height:50px;
+}
+
+.methods{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-image: url(img/airplane.jpg);
+}
+.methodBox{
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    height:420px;
+    background: rgba(255, 255, 255, 0.5);
+    color:#000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-45%, -50%);
+    box-sizing: border-box;
+    padding:20px;
+    
+}
+
+#backbtn{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -30px;
+    margin: 0;
+}

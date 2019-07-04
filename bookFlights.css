@@ -38,7 +38,7 @@
     padding: 80px 40px;
     width: 50%;
     height:77%;
-    background: rgba(134, 147, 204, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     color:#000;
     top: 50%;
     left: 50%;
@@ -83,4 +83,7 @@ input{
     width: 30px;
     margin-top: 10px;
     float: left;
+}
+body{
+    background-image: url(img/beach.jpg);
 }

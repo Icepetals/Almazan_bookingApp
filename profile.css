@@ -82,3 +82,7 @@ h1{
 .pic {
     display: flex;
 }
+body{
+    overflow-x: hidden;
+    background-image: url(img/beach.jpg);
+}
