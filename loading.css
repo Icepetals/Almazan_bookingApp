@@ -1,21 +1,16 @@
-.navbar{
-    height:60px;
-    background-color: lightblue;
-    position: relative;
-
-}
 #logo{
     width:200px;
     height:30px;
-    text-align: center;
-    position: relative;
-    top: -15px
 }
 
-#backbtn{
-    height:30px;
-    width: 30px;
-    position: relative;
-    bottom: -10px;
-    left: 15px;
+.navbar{
+    margin-top: 45vh;
+}
+
+body{
+    background-image: url(gif/loading.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
